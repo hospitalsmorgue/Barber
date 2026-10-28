@@ -20,6 +20,12 @@ npm run build
 npm start
 ```
 
+## Versão estática (abrir sem instalar nada)
+
+A pasta `docs/` é o mesmo demonstrativo em um único `index.html`, com CSS e JavaScript clássicos (sem build, sem servidor e sem módulos ES). Dê um duplo clique em `docs/index.html`, ou arraste o arquivo para o navegador. A navegação fica na hash da URL, por exemplo `index.html#/busca` e `index.html#/barbearia/casa-otavio`. Favoritos, check-ins e o tour inicial continuam no `localStorage`. As fotos e as fontes precisam de internet.
+
+Para publicar no GitHub Pages: no repositório, abra **Settings → Pages**, em **Build and deployment** escolha **Deploy from a branch**, selecione a branch `main` e a pasta **`/docs`**, e salve. O site fica em `https://SEU_USUARIO.github.io/SEU_REPOSITORIO/`.
+
 ## Publicar no GitHub
 
 Crie um repositório vazio no GitHub e, na pasta do projeto, rode:
